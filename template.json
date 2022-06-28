@@ -1,73 +1,138 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": [
+      "character",
+      "npc"
+    ],
     "templates": {
       "base": {
         "health": {
-          "value": 10,
+          "value": 6,
           "min": 0,
-          "max": 10
+          "max": 6
         },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
-        },
-        "biography": ""
+        "temporaryHealth": 0
+      },
+      "concept": {
+        "identity": "",
+        "goal": "",
+        "connections": [],
+        "flawDescription": "",
+        "species": "",
+        "homeland": "",
+        "age": "",
+        "faith": "",
+        "appearance": "",
+        "personality": "",
+        "profession": "",
+        "hobbies": "",
+        "backstory": ""
       }
     },
     "character": {
-      "templates": ["base"],
-      "attributes": {
-        "level": {
-          "value": 1
-        }
+      "templates": [
+        "base"
+      ],
+      "healthDie": {
+        "value": 6,
+        "min": 0,
+        "max": 6
       },
-      "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
-        }
-      }
+      "armor": 0,
+      "supply": {
+        "value": 4,
+        "min": 0,
+        "max": 4
+      },
+      "gold": 5
     },
     "npc": {
-      "templates": ["base"],
-      "cr": 0
+      "templates": [
+        "base"
+      ],
+      "level": 0,
+      "description": "",
+      "traits": [],
+      "powers": []
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": [
+      "item",
+      "artifact",
+      "skill",
+      "power",
+      "flaw",
+      "condition",
+      "activity"
+    ],
     "templates": {
       "base": {
-        "description": ""
+        "description": "",
+        "rules": ""
+      },
+      "physicalItem": {
+        "quantity": 1
+      },
+      "characterTrait": {
+        "complications": [],
+        "conditions": [],
+        "experienceDescription": ""
       }
     },
     "item": {
-      "templates": ["base"],
-      "quantity": 1,
-      "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+      "templates": [
+        "base",
+        "physicalItem"
+      ],
+      "cost": 0
     },
-    "feature": {
-      "templates": ["base"]
+    "artifact": {
+      "templates": [
+        "base",
+        "physicalItem"
+      ],
+      "level": 0
     },
-    "spell": {
-      "templates": ["base"],
-      "spellLevel": 1
+    "skill": {
+      "templates": [
+        "base",
+        "characterTrait"
+      ],
+      "experience": {
+        "value": 4,
+        "min": 0,
+        "max": 4
+      },
+      "equipment": "",
+      "spellLevel": 1,
+      "tags": [],
+      "level1Powers": [],
+      "level2Powers": [],
+      "level3Powers": [],
+      "level4Powers": [],
+      "level5Powers": []
+    },
+    "power": {
+      "templates": [
+        "base"
+      ]
+    },
+    "flaw": {
+      "templates": [
+        "base",
+        "characterTrait"
+      ]
+    },
+    "condition": {
+      "templates": [
+        "base"
+      ]
+    },
+    "activity": {
+      "templates": [
+        "base"
+      ]
     }
   }
 }

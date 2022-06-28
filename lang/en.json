@@ -1,22 +1,22 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "VOLITION.AbilityStr": "Strength",
+  "VOLITION.AbilityCon": "Constitution",
+  "VOLITION.AbilityDex": "Dexterity",
+  "VOLITION.AbilityInt": "Intelligence",
+  "VOLITION.AbilityWis": "Wisdom",
+  "VOLITION.AbilityCha": "Charisma",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "VOLITION.AbilityStrAbbr": "str",
+  "VOLITION.AbilityConAbbr": "con",
+  "VOLITION.AbilityDexAbbr": "dex",
+  "VOLITION.AbilityIntAbbr": "int",
+  "VOLITION.AbilityWisAbbr": "wis",
+  "VOLITION.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "VOLITION.EffectCreate": "Create Effect",
+  "VOLITION.EffectToggle": "Toggle Effect",
+  "VOLITION.EffectEdit": "Edit Effect",
+  "VOLITION.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "VOLITION.Add": "Add"
 }

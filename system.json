@@ -1,13 +1,13 @@
 {
-  "name": "boilerplate",
-  "title": "Boilerplate",
-  "description": "The Boilerplate system for FoundryVTT!",
-  "version": "1.1.0",
-  "minimumCoreVersion": "0.8.3",
-  "compatibleCoreVersion": "0.8.6",
-  "author": "Asacolips",
-  "esmodules": ["module/boilerplate.mjs"],
-  "styles": ["css/boilerplate.css"],
+  "name": "volition",
+  "title": "Volition",
+  "description": "The Volition system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "author": "Chris Maheu",
+  "esmodules": ["module/volition.mjs"],
+  "styles": ["css/volition.css"],
   "scripts": [],
   "packs": [],
   "languages": [
@@ -21,8 +21,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
+  "url": "https://github.com/sangheili868/volition",
+  "manifest": "https://raw.githubusercontent.com/sangheili868/volition/main/system.json",
   "download": "",
   "license": "LICENSE.txt"
 }

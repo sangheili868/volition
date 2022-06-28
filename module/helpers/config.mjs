@@ -1,23 +1,29 @@
-export const BOILERPLATE = {};
+export const VOLITION = {};
+
+// Define constants here, such as:
+VOLITION.foobar = {
+  'bas': 'VOLITION.bas',
+  'bar': 'VOLITION.bar'
+};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ VOLITION.abilities = {
+  "str": "VOLITION.AbilityStr",
+  "dex": "VOLITION.AbilityDex",
+  "con": "VOLITION.AbilityCon",
+  "int": "VOLITION.AbilityInt",
+  "wis": "VOLITION.AbilityWis",
+  "cha": "VOLITION.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+VOLITION.abilityAbbreviations = {
+  "str": "VOLITION.AbilityStrAbbr",
+  "dex": "VOLITION.AbilityDexAbbr",
+  "con": "VOLITION.AbilityConAbbr",
+  "int": "VOLITION.AbilityIntAbbr",
+  "wis": "VOLITION.AbilityWisAbbr",
+  "cha": "VOLITION.AbilityChaAbbr"
 };
