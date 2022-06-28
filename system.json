@@ -9,7 +9,77 @@
   "esmodules": ["module/volition.mjs"],
   "styles": ["css/volition.css"],
   "scripts": [],
-  "packs": [],
+  "packs": [
+    {
+      "name": "rules",
+      "label": "Volition Core Rules",
+      "system": "volition",
+      "path": "./packs/rules.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "npcs",
+      "label": "Volition Core NPCs",
+      "system": "volition",
+      "path": "packs/npcs.db",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Volition Core Items",
+
+      "system": "volition",
+      "path": "packs/items.db",
+      "type": "Item"
+    },
+    {
+      "name": "artifacts",
+      "label": "Volition Core Artifacts",
+
+      "system": "volition",
+      "path": "packs/artifacts.db",
+      "type": "Item"
+    },
+    {
+      "name": "skills",
+      "label": "Volition Core Skills",
+
+      "system": "volition",
+      "path": "packs/skills.db",
+      "type": "Item"
+    },
+    {
+      "name": "powers",
+      "label": "Volition Core Powers",
+
+      "system": "volition",
+      "path": "packs/powers.db",
+      "type": "Item"
+    },
+    {
+      "name": "flaws",
+      "label": "Volition Core Flaws",
+
+      "system": "volition",
+      "path": "packs/flaws.db",
+      "type": "Item"
+    },
+    {
+      "name": "conditions",
+      "label": "Volition Core Conditions",
+      "system": "volition",
+      "path": "packs/conditions.db",
+      "type": "Item"
+    },
+    {
+      "name": "activities",
+      "label": "Volition Core Activities",
+
+      "system": "volition",
+      "path": "packs/activities.db",
+      "type": "Item"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
