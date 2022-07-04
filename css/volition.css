@@ -224,6 +224,13 @@
 }
 
 /* Styles limited to volition sheets */
+.volition {
+  /* ----------------------------------------- */
+  /*  Items Lists                              */
+  /* ----------------------------------------- */
+  /* Example style for Volition (can be removed if not needed) */
+}
+
 .volition .item-form {
   font-family: "Roboto", sans-serif;
 }
@@ -282,8 +289,7 @@
 }
 
 .volition .sheet-body,
-.volition .sheet-body .tab,
-.volition .sheet-body .tab .editor {
+.volition .sheet-body .tab {
   height: 100%;
 }
 
@@ -297,6 +303,14 @@
 
 .volition .resource-label {
   font-weight: bold;
+}
+
+.volition .editor {
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .volition .items-header {

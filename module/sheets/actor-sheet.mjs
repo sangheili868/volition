@@ -43,6 +43,7 @@ export class VolitionActorSheet extends ActorSheet {
     if (actorData.type == 'character') {
       this._prepareItems(context);
       this._prepareCharacterData(context);
+      console.log("CONTEXT: ", context)
     }
 
     // Prepare NPC data and items.

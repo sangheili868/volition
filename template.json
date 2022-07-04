@@ -5,14 +5,6 @@
       "npc"
     ],
     "templates": {
-      "base": {
-        "health": {
-          "value": 6,
-          "min": 0,
-          "max": 6
-        },
-        "temporaryHealth": 0
-      },
       "concept": {
         "identity": "",
         "goal": "",
@@ -31,25 +23,28 @@
     },
     "character": {
       "templates": [
-        "base"
+        "concept"
       ],
-      "healthDie": {
-        "value": 6,
-        "min": 0,
-        "max": 6
-      },
+      "health": 10,
+      "stamina": 10,
+      "constitution": 10,
       "armor": 0,
       "supply": {
-        "value": 4,
+        "value": 5,
         "min": 0,
-        "max": 4
+        "max": 5
       },
       "gold": 5
     },
     "npc": {
       "templates": [
-        "base"
+        "concept"
       ],
+      "health": {
+        "value": 6,
+        "min": 0,
+        "max": 6
+      },
       "level": 0,
       "description": "",
       "traits": [],
